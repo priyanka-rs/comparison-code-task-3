@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> document</title>
+    </head>
+    <body>
+        <script>
+             var obj1= {name:"person 1",age:5};
+             var obj2={age:5, name :"person1"};
+             var keys1 = Object.keys(obj1).sort();
+             var keys2 = Object.keys(obj2).sort();
+             var a=(JSON.stringify(keys1) === JSON.stringify(keys2));
+             console.log(a)
+    
+   
+
+
+
+
+
+
+                             
+  
+               
+        </script>
+    </body>
+</html>
